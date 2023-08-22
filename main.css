@@ -614,41 +614,31 @@ h6 {
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
   margin: 40px 30px;
-  background: var(--color-secondary);
-  min-height: 320px;
   display: flex;
   flex-direction: column;
   text-align: center;
   transition: 0.3s;
 }
 
-.testimonials .testimonial-item .stars {
-  margin-bottom: 15px;
-}
-
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
-
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 120px;
   border-radius: 50%;
   border: 5px solid #474a4d;
   margin: 0 auto;
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
+  text-align: center;
   color: #fff;
 }
 
@@ -1262,4 +1252,18 @@ h6 {
 
 .footer .credits a {
   color: var(--color-primary);
+}
+
+a.tbl-biru {
+  background: #000080;
+  border-radius: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #32cf93;
+  text-decoration: none;
 }
